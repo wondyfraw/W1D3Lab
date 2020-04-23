@@ -1,0 +1,143 @@
+/* My main css */
+body{
+    background-image: url("/W1D3Lab/image/background.png");
+}
+
+.header-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+.headerRepeat{
+    background-image: url("/W1D3Lab/image/bannerbg.png");
+    background-repeat: repeat-x;
+}
+.headerRepeat2{
+    background-image: url("/W1D3Lab/image/rbg.png");
+    background-repeat: repeat-x;
+}
+.rating{
+    font-size: 48pt;
+    color:red;
+    font-weight: bold;
+}
+#rottenBig{
+    margin-top: -20px;
+}
+footer{
+    float: right;
+}
+
+h1#title-alignment
+{
+    text-align: center;
+    text-shadow: 3px 3px #999999;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+/*#mainContainer{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}*/
+
+#outer {
+    border: 4px solid  gray;
+    overflow: hidden;
+    padding: 10px;
+    width: 763px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 1081px;
+}
+.box {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 230px;
+    height: 125px;
+    background-color: #E8DC9B;
+    margin: 8px;
+    float: left;
+}
+.break {
+    clear: left;
+}
+.box-Containt{
+    /*border: 2px solid;
+    border-radius: 10px;
+    width: 245px;*/
+    /*margin-left: 8px;*/
+    margin: 5px;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, or any sans-serif;
+    font-size: 8pt;
+}
+.paddingUser{
+    padding-top: 40px;
+}
+.barStyle{
+    background-color: #A2B964;
+    margin-left: -10px;
+    text-align: center;
+}
+.leftDiv{
+    position: absolute;
+    margin-left: 520px;
+    height: 1100px;
+    width:  250px;
+    background-color: #A2B964;
+    border-color:#A2B964 ;
+    margin-top: -90px;
+}
+.userName{
+    position: absolute;
+    font-size: 15px;
+}
+.userOffice{
+    margin-left: 33px;
+    position: absolute;
+    margin-top: -20px;
+    font-size: 14px;
+    font-style: italic;
+}
+#generalOver{
+    font-size: 8px;
+    font-family: Arial,sans-serif;
+}
+.div-margin{
+    margin-top: 55px;
+}
+.minDiv{
+    height: 100px;
+}
+.smallDiv{
+    height: 50px;
+}
+.left-div-margin{
+    margin-top: 90px;
+}
+
+#Impersonally{
+    padding-top: 30px;
+}
+p#stinks,p#striking{
+    padding-top: 20px;
+}
+p#rubber,p#script,p#review1,p#review2{
+    padding-top: 18px;
+}
+
+.bottom-style{
+    margin-top: 62.2em;
+    /*margin-left: 350px;
+    background-color: #A2B964;
+    padding-right: 100px;
+    padding-left: 50px;*/
+}
